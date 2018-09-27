@@ -1,13 +1,3 @@
-PROCESS-NAME,Day One,Proxy
-PROCESS-NAME,Backup and Sync,Proxy
-PROCESS-NAME,Dropbox,Proxy
-PROCESS-NAME,Facebook,Proxy
-PROCESS-NAME,Instagram,Proxy
-PROCESS-NAME,iTranslate,Proxy
-PROCESS-NAME,Spotify,Proxy
-PROCESS-NAME,Telegram,Proxy
-PROCESS-NAME,Telegram Desktop,Proxy
-PROCESS-NAME,Tweetbot,Proxy
 DOMAIN-SUFFIX,t.me,Proxy
 DOMAIN-SUFFIX,telesco.pe,Proxy
 DOMAIN-SUFFIX,getpricetag,Proxy
@@ -42,3 +32,28 @@ DOMAIN-KEYWORD,slack,Proxy
 DOMAIN-SUFFIX,reddit.com,Proxy
 DOMAIN-SUFFIX,redditmedia.com,Proxy
 DOMAIN-SUFFIX,redditstatic.com,Proxy
+# PN
+PROCESS-NAME,Day One,Proxy
+PROCESS-NAME,Backup and Sync,Proxy
+PROCESS-NAME,Dropbox,Proxy
+PROCESS-NAME,Facebook,Proxy
+PROCESS-NAME,Instagram,Proxy
+PROCESS-NAME,iTranslate,Proxy
+PROCESS-NAME,Spotify,Proxy
+PROCESS-NAME,Telegram,Proxy
+PROCESS-NAME,Telegram Desktop,Proxy
+PROCESS-NAME,Tweetbot,Proxy
+# UA
+USER-AGENT,Reeder*,Proxy
+USER-AGENT,WhatsApp*,Proxy
+USER-AGENT,WeChat*,nProxy
+USER-AGENT,MicroMessenger*,nProxy
+USER-AGENT,Dropbox*,Proxy
+USER-AGENT,Wire*,Proxy
+USER-AGENT,wire*,Proxy
+USER-AGENT,Instacast*,Proxy
+USER-AGENT,Overcast*,Proxy
+USER-AGENT,Argo*,Proxy
+USER-AGENT,Tweetbot*,Proxy
+USER-AGENT,Telegram*,Proxy
+USER-AGENT,ph.telegra.Telegraph*,Proxy
