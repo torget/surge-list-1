@@ -1,0 +1,44 @@
+PROCESS-NAME,Day One,Proxy
+PROCESS-NAME,Backup and Sync,Proxy
+PROCESS-NAME,Dropbox,Proxy
+PROCESS-NAME,Facebook,Proxy
+PROCESS-NAME,Instagram,Proxy
+PROCESS-NAME,iTranslate,Proxy
+PROCESS-NAME,Spotify,Proxy
+PROCESS-NAME,Telegram,Proxy
+PROCESS-NAME,Telegram Desktop,Proxy
+PROCESS-NAME,Tweetbot,Proxy
+DOMAIN-SUFFIX,t.me,Proxy
+DOMAIN-SUFFIX,telesco.pe,Proxy
+DOMAIN-SUFFIX,getpricetag,Proxy
+DOMAIN-SUFFIX,telegra.ph,Proxy
+DOMAIN-SUFFIX,steamcommunity.com,Proxy
+DOMAIN-SUFFIX,xn--i2ru8q2qg.com,Proxy
+DOMAIN-SUFFIX,pixiv.net,Proxy
+DOMAIN-SUFFIX,resilio.com,Proxy
+DOMAIN-SUFFIX,whatsapp.com,Proxy
+DOMAIN-SUFFIX,whatsapp.net,Proxy
+DOMAIN-SUFFIX,getpocket.com,Proxy
+DOMAIN-SUFFIX,optimizely.com,Proxy
+DOMAIN-SUFFIX,sharepoint.com,Proxy
+DOMAIN-SUFFIX,live.com,Proxy
+DOMAIN-SUFFIX,live.net,Proxy
+DOMAIN-SUFFIX,gfx.ms,Proxy
+DOMAIN-SUFFIX,windows.net,Proxy
+DOMAIN-SUFFIX,microsoft.com,Proxy
+DOMAIN-SUFFIX,1drv.com,Proxy
+DOMAIN-SUFFIX,istv.in,Proxy
+DOMAIN-SUFFIX,chinagfw.org,Proxy
+#DOMAIN-SUFFIX,v2ex.com,Proxy
+DOMAIN-SUFFIX,newradio.fm,Proxy
+DOMAIN-SUFFIX,appshopper.com,Proxy
+DOMAIN-SUFFIX,dropboxapi.com,Proxy
+DOMAIN-SUFFIX,google.cn,Proxy
+DOMAIN-SUFFIX,pinterest.com,Proxy
+DOMAIN-SUFFIX,dafork.com,Proxy
+DOMAIN-SUFFIX,nflxvideo.net,Proxy
+DOMAIN-SUFFIX,wire.com,Proxy
+DOMAIN-KEYWORD,slack,Proxy
+DOMAIN-SUFFIX,reddit.com,Proxy
+DOMAIN-SUFFIX,redditmedia.com,Proxy
+DOMAIN-SUFFIX,redditstatic.com,Proxy
