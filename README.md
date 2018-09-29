@@ -22,9 +22,9 @@ RULE-SET,https://github.com/congcong0806/surge-list/raw/master/apple.list, Apple
 #scomper
 RULE-SET,https://github.com/scomper/surge-list/raw/master/adblock.list, REJECT
 RULE-SET,https://github.com/scomper/surge-list/raw/master/reject.list, REJECT-TINYGIF
-RULE-SET,https://github.com/scomper/surge-list/raw/master/blocked.list, Proxy
 RULE-SET,https://github.com/scomper/surge-list/raw/master/cn.list, nProxy
 RULE-SET,https://github.com/scomper/surge-list/raw/master/video.list, Proxy
+RULE-SET,https://github.com/scomper/surge-list/raw/master/blocked.list, Proxy
 RULE-SET,https://github.com/scomper/surge-list/raw/master/telegram.list, Proxy
 
 # lhie1
