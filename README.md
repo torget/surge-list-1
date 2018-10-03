@@ -32,21 +32,22 @@ nProxy = select, Direct, CN, HK
 
 
 [Rule]
-PROCESS-NAME,ss-local,DIRECT
+PROCESS-NAME,ss-local,Direct
 PROCESS-NAME,Speedtest,nProxy
 
-USER-AGENT,WeChat*,DIRECT
-USER-AGENT,MicroMessenger*,DIRECT
+USER-AGENT,WeChat*,Direct
+USER-AGENT,MicroMessenger*,Direct
 
-DOMAIN-SUFFIX,lastpass.com,DIRECT
-DOMAIN-SUFFIX,zaihua.io,DIRECT
+DOMAIN-SUFFIX,lastpass.com,Direct
+DOMAIN-SUFFIX,zaihua.io,Direct
+DOMAIN-SUFFIX,netgear.com,Direct
 DOMAIN-SUFFIX,evernote.com,Proxy
 DOMAIN-SUFFIX,yinxiang.com,nProxy
 DOMAIN-SUFFIX,sublimetext.com,REJECT
 DOMAIN-SUFFIX,sublimehq.com,REJECT
 
 # Rulesets
-RULE-SET,SYSTEM,DIRECT
+RULE-SET,SYSTEM,Direct
 RULE-SET,https://github.com/congcong0806/surge-list/raw/master/congcong.list, Proxy
 RULE-SET,https://github.com/congcong0806/surge-list/raw/master/apple.list, Apple
 
@@ -64,7 +65,7 @@ RULE-SET,https://github.com/lhie1/Rules/raw/master/Auto_New/domestic.list, nProx
 RULE-SET,https://github.com/lhie1/Rules/raw/master/Auto_New/media.list, Proxy
 RULE-SET,https://github.com/lhie1/Rules/raw/master/Auto_New/proxy.list, Proxy
 
-RULE-SET,LAN,DIRECT
+RULE-SET,LAN,Direct
 GEOIP,CN,nProxy
 FINAL,Proxy,dns-failed
 
