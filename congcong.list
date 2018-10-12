@@ -47,6 +47,7 @@ PROCESS-NAME,Telegram Desktop
 PROCESS-NAME,Tweetbot
 # UA
 USER-AGENT,Reeder*
+USER-AGENT,Pocket*
 USER-AGENT,WhatsApp*
 USER-AGENT,Dropbox*
 USER-AGENT,Wire*
