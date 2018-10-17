@@ -34,6 +34,8 @@ DOMAIN-KEYWORD,slack
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,feedly.com
+DOMAIN-SUFFIX,reederapp.com
 # PN
 PROCESS-NAME,Day One
 PROCESS-NAME,Backup and Sync
