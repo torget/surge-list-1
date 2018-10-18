@@ -1,0 +1,4 @@
+#格式与旧规则 [Proxy] 里的格式一致
+
+node = ss, xx.xxx.com, 443, encrypt-method=rc4-md5, password=123456
+node2 = ss, xx.xxx.com, 443, encrypt-method=rc4-md5, password=123456, obfs=http, obfs-host=xxx.com, udp-relay=true, tfo=true
