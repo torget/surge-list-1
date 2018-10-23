@@ -36,6 +36,8 @@ DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,reederapp.com
+DOMAIN-SUFFIX,doub.io
+DOMAIN-SUFFIX,softs.wtf
 # PN
 PROCESS-NAME,Day One
 PROCESS-NAME,Backup and Sync
