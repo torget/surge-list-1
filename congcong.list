@@ -38,6 +38,8 @@ DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,reederapp.com
 DOMAIN-SUFFIX,doub.io
 DOMAIN-SUFFIX,softs.wtf
+DOMAIN-SUFFIX,doubmirror.cf
+DOMAIN-SUFFIX,softsmirror.cf
 # PN
 PROCESS-NAME,Day One
 PROCESS-NAME,Backup and Sync
