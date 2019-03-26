@@ -1,4 +1,3 @@
-DOMAIN,guzzoni.apple.com // Siri
 DOMAIN-KEYWORD,fmfmobile
 DOMAIN-SUFFIX,apple.cnc.ccgslb.com.cn
 DOMAIN-SUFFIX,apple.com.akadns.net
@@ -17,5 +16,16 @@ DOMAIN-SUFFIX,thinkdifferent.us
 DOMAIN-SUFFIX,itools.info
 DOMAIN-SUFFIX,ibook.info
 DOMAIN-SUFFIX,aiport.us
+DOMAIN-SUFFIX,apple.news
+DOMAIN,apple.comscoreresearch.com
+
 PROCESS-NAME,storedownloadd // Mac App Store
 USER-AGENT,com.apple.appstored* // iOS App Store
+
+USER-AGENT,com.apple.geod*
+USER-AGENT,com.apple.Maps
+USER-AGENT,geod*
+USER-AGENT,locationd*
+USER-AGENT,Maps*
+USER-AGENT,AppleNews*
+USER-AGENT,AppleNews*
