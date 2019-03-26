@@ -49,6 +49,14 @@ DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,kakao.com
 DOMAIN-SUFFIX,kakao.co.kr
 DOMAIN-SUFFIX,kakaocdn.net
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
+DOMAIN-KEYWORD,netflix
+DOMAIN-KEYWORD,nflx
 # PN
 PROCESS-NAME,Day One
 PROCESS-NAME,Backup and Sync
@@ -62,6 +70,7 @@ PROCESS-NAME,Telegram Desktop
 PROCESS-NAME,Tweetbot
 PROCESS-NAME,Slack
 PROCESS-NAME,WhatsApp
+PROCESS-NAME,Spotify
 # UA
 USER-AGENT,Reeder*
 USER-AGENT,Pocket*
@@ -79,3 +88,6 @@ USER-AGENT,Slack*
 USER-AGENT,Pinterest*
 USER-AGENT,KakaoTalk*
 USER-AGENT,KT*
+USER-AGENT,Argo*
+USER-AGENT,*Spotify*
+USER-AGENT,mytv*
