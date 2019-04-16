@@ -1,6 +1,8 @@
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,dlercloud.net
+DOMAIN-SUFFIX,dlercloud.org
+DOMAIN-SUFFIX,dler.cloud
 DOMAIN-SUFFIX,slack-edge.com
 DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,slack-msgs.com
@@ -56,6 +58,7 @@ DOMAIN-SUFFIX,kakaocdn.net
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,tvb.com
 DOMAIN-KEYWORD,nowtv100
 DOMAIN-KEYWORD,rthklive
