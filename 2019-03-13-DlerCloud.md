@@ -10,6 +10,8 @@ tags:                               #标签
     - Shadowsocks
 
 ---
+> 转载请注明原文出处:[SS/SSR 服务商(机场)推荐:Dler Cloud](https://congcong0806.github.io/2019/03/13/DlerCloud)
+
 ##### 机场推荐:Dler Cloud
 
 一家很稳很强的机场，速度相当不错，维护也很及时，`lhie1` 大佬的技术也很好。<br>
@@ -31,6 +33,8 @@ Telegram 公告中心:<https://t.me/dlercloud_news>
 ![2019.2.23 晚高峰6点-7点测速](http://ww1.sinaimg.cn/large/9b84e6acgy1g10zhgiynoj20fx0q5wj6.jpg)
 
 浅谈部分机场（SS/SSR提供商）的使用感受 (毒药):<http://www.evernote.com/l/AmEIfRIK0H9LE5XUla9dVz21Q8NQ5sVaxMM>
+
+> 转载请注明原文出处:[SS/SSR 服务商(机场)推荐:Dler Cloud](https://congcong0806.github.io/2019/03/13/DlerCloud)
 
 - - - -
 
