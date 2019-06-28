@@ -1,9 +1,10 @@
 /*
-世界时间
+今日时间
 
 使用:
-[Script]
 #每天 7:00-23:00 整点通知, 也可以自定义其他时间, 详情:https://community.nssurge.com/d/33-scripting
+
+[Script]
 cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js
  
 作者:聪聪
