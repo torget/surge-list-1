@@ -3,6 +3,7 @@
 
 使用:
 [Script]
+#每天 7:00-23:00 整点通知
 cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js
  
 作者:聪聪
@@ -32,11 +33,7 @@ Date.prototype.format = function(fmt) {
 };
 
 const areas = [
-               ["UTC", +0],
-               ["纽约", -5],
-               ["东京", +9],
-               ["巴黎", +2],
-               ["悉尼", +10]
+               ["UTC", +0],["纽约", -5],["东京", +9],["巴黎", +2],["悉尼", +10]
            ]
 
 time();
