@@ -40,7 +40,6 @@ function dateDiff(startDate, endDate) {
 }
 
 const dayarr = [ 
-    [ "Good Day", "2019-07-01" ],
     [ "圣诞节", "2019-12-15" ], 
     [ "元旦", "2020-01-01" ], 
     [ "去年", "2018-12-31" ],
@@ -51,7 +50,7 @@ day();
 function day() {
     var now = new Date()
     var nowStr = now.format("yyyy-MM-dd")
-    var content = "";
+    var content = "Good Day,就是今天";
     for ( var i in dayarr) {
         var d = dateDiff(dayarr[i][1], nowStr)
         if(isNaN(d))
