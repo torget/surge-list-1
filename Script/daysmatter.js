@@ -50,7 +50,7 @@ day();
 function day() {
     var now = new Date()
     var nowStr = now.format("yyyy-MM-dd")
-    var content = "Good Day,就是今天";
+    var content = "Good Day,就是今天\n";
     for ( var i in dayarr) {
         var d = dateDiff(dayarr[i][1], nowStr)
         if(isNaN(d))
