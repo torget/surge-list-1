@@ -1,0 +1,14 @@
+PROCESS-NAME,ss-local,Direct
+DOMAIN-KEYWORD,rixcloud,Direct
+DOMAIN-SUFFIX,datarelay.io,Direct
+DOMAIN-SUFFIX,v2ex.com,Direct
+DOMAIN-SUFFIX,lastpass.com,Direct
+DOMAIN-SUFFIX,zaihua.io,Direct
+DOMAIN-SUFFIX,netgear.com,Direct
+DOMAIN-SUFFIX,yinxiang.com,Direct
+DOMAIN-SUFFIX,logcg.com,Direct
+DOMAIN-SUFFIX,vd.l.qq.com,Direct
+#去苹果店现场预约时遇到的 503 问题，把这个域名加入规则访问正常。
+DOMAIN,reserve-prime.apple.com,Direct
+#Siri 响应问题的排查尝试
+DOMAIN,guzzoni.apple.com,Direct
