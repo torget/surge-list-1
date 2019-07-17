@@ -1,8 +1,14 @@
 /*
 倒数日
+
+使用:
+#每天 8点通知, 也可以自定义其他时间, 详情:https://community.nssurge.com/d/33-scripting
+
+[Script]
+cron "0 8 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js
  
 作者:聪聪
-聪聪 https://t.me/congcong
+聪聪 https://t.me/congcongx_bot
 群组 https://t.me/YinxiangBiji
 频道 https://t.me/YinxiangBiji_News
 */
