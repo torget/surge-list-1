@@ -1,7 +1,7 @@
 # 我(聪聪)的个人规则-Apple
 DOMAIN-KEYWORD,fmfmobile
 DOMAIN-SUFFIX,apple.cnc.ccgslb.com.cn
-DOMAIN-SUFFIX,apple.com.akadns.net
+DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,icloud.com
@@ -18,8 +18,9 @@ DOMAIN-SUFFIX,itools.info
 DOMAIN-SUFFIX,ibook.info
 DOMAIN-SUFFIX,aiport.us
 DOMAIN-SUFFIX,apple.news
-DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,comscoreresearch.com
 
+PROCESS-NAME,trustd
 PROCESS-NAME,storedownloadd // Mac App Store
 USER-AGENT,com.apple.appstored* // iOS App Store
 
