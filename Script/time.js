@@ -12,6 +12,7 @@ cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/m
 群组 https://t.me/YinxiangBiji
 频道 https://t.me/YinxiangBiji_News
 */
+
 Date.prototype.format = function(fmt) {
 	var date = {
 	        "M+": this.getMonth() + 1,
