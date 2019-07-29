@@ -1,0 +1,12 @@
+# 我(聪聪)的个人规则-拒绝
+# General
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,analysis
+# Google
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
