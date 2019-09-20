@@ -24,10 +24,34 @@ PROCESS-NAME,trustd
 PROCESS-NAME,storedownloadd // Mac App Store
 USER-AGENT,com.apple.appstored* // iOS App Store
 
+#UA
+USER-AGENT,AppleNews*
+USER-AGENT,AppStore*
+USER-AGENT,%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0*
+USER-AGENT,com.apple.appstored*
+USER-AGENT,com.apple.Mobile*
 USER-AGENT,com.apple.geod*
-USER-AGENT,com.apple.Maps
+USER-AGENT,com.apple.Maps*
+USER-AGENT,com.apple.trustd/*
+USER-AGENT,FindMyFriends*
+USER-AGENT,FMDClient*
+USER-AGENT,FMFD*
+USER-AGENT,fmflocatord*
 USER-AGENT,geod*
+USER-AGENT,i?unes*
 USER-AGENT,locationd*
+USER-AGENT,MacAppStore*
 USER-AGENT,Maps*
-USER-AGENT,AppleNews*
-USER-AGENT,AppleNews*
+USER-AGENT,MobileAsset*
+USER-AGENT,Watch*
+USER-AGENT,$%7BPRODUCT*
+USER-AGENT,Music*
+USER-AGENT,?arsecd*
+USER-AGENT,securityd*
+USER-AGENT,server-bag*
+USER-AGENT,Settings*
+USER-AGENT,Software%20Update*
+USER-AGENT,SyncedDefaults*
+USER-AGENT,passd*
+USER-AGENT,swcd*
+USER-AGENT,trustd*
