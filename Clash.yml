@@ -34,15 +34,6 @@ cfw-bypass:
 cfw-latency-timeout: 5000
 
 proxy-provider:
-    Pro:
-        type: http
-        path: ./Pro.yaml
-        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&isp=pro
-        interval: 3600
-        health-check:
-            enable: true
-            url: http://www.gstatic.com/generate_204
-            interval: 300
     IPLC:
         type: http
         path: ./IPLC.yaml
@@ -62,10 +53,6 @@ proxy-provider:
             url: http://www.gstatic.com/generate_204
             interval: 300
 Proxy Group:
-- name: Pro-Auto
-  type: url-test
-  use:
-      - Pro
 - name: IPLC-Auto
   type: url-test
   use:
@@ -77,7 +64,6 @@ Proxy Group:
 - name: PROXY
   type: select
   proxies:
-      - Pro-Auto
       - IPLC-Auto
       - BGP-Auto
 - name: Final
@@ -93,13 +79,11 @@ Proxy Group:
 - name: GlobalMedia
   type: select
   proxies:
-      - Pro-Auto
       - IPLC-Auto
       - BGP-Auto
 - name: HKMTMedia
   type: select
   proxies:
-      - Pro-Auto
       - IPLC-Auto
       - BGP-Auto
 - name: Hijacking
