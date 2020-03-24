@@ -14,8 +14,14 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,overcast
-#SUFFIX
+#Notion
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,cloudflare.com
+#SUFFIX
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,t.me
