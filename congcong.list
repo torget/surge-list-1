@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,segment.com
 DOMAIN-SUFFIX,cloudflare.com
 #SUFFIX
+DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,t.me
