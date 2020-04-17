@@ -37,7 +37,7 @@ proxy-provider:
     Team-Node:
         type: http
         path: ./DlerCloud/Team-Node.yaml
-        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&lv=7
+        url: url?protocols=ss&list=clash&lv=7
         interval: 3600
         health-check:
             enable: true
@@ -46,7 +46,7 @@ proxy-provider:
     Platinum-Node:
         type: http
         path: ./DlerCloud/Platinum-Node.yaml
-        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&lv=5
+        url: url?protocols=ss&list=clash&lv=5
         interval: 3600
         health-check:
             enable: true
@@ -55,7 +55,7 @@ proxy-provider:
     Gold-Node:
         type: http
         path: ./DlerCloud/Gold-Node.yaml
-        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&lv=4
+        url: url?protocols=ss&list=clash&lv=4
         interval: 3600
         health-check:
             enable: true
@@ -64,7 +64,7 @@ proxy-provider:
     BGP-HK-Node:
         type: http
         path: ./DlerCloud/BGP-HK-Node.yaml
-        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&lv=3&area=hk
+        url: url?protocols=ss&list=clash&lv=3&area=hk
         interval: 3600
         health-check:
             enable: true
@@ -73,7 +73,7 @@ proxy-provider:
     BGP-AS-Node:
         type: http
         path: ./DlerCloud/BGP-AS-Node.yaml
-        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&lv=3&area=tw+sg+jp+kr
+        url: url?protocols=ss&list=clash&lv=3&area=tw+sg+jp+kr
         interval: 3600
         health-check:
             enable: true
@@ -82,7 +82,7 @@ proxy-provider:
     BGP-UU-Node:
         type: http
         path: ./DlerCloud/BGP-UU-Node.yaml
-        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&lv=3&area=uk+us
+        url: url?protocols=ss&list=clash&lv=3&area=uk+us
         interval: 3600
         health-check:
             enable: true
