@@ -20,8 +20,9 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,segment.com
 DOMAIN-SUFFIX,cloudflare.com
 #SUFFIX
-DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,dlercloud.com
+DOMAIN-SUFFIX,dleris.best
+DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,intercom.io
