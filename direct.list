@@ -1,13 +1,25 @@
-# 我(聪聪)的个人规则-直连
-PROCESS-NAME,ss-local,Direct
-DOMAIN-SUFFIX,yinxiang.com,Direct
-DOMAIN-SUFFIX,v2ex.com,Direct
-DOMAIN-SUFFIX,lastpass.com,Direct
-DOMAIN-SUFFIX,zaihua.io,Direct
-DOMAIN-SUFFIX,netgear.com,Direct
-DOMAIN-SUFFIX,logcg.com,Direct
-DOMAIN-SUFFIX,vd.l.qq.com,Direct
+# 我(聪聪)的个人规则-直连# PN
+DOMAIN-SUFFIX,yinxiang.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,lastpass.com
+DOMAIN-SUFFIX,zaihua.io
+DOMAIN-SUFFIX,netgear.com
+DOMAIN-SUFFIX,logcg.com
+DOMAIN-SUFFIX,vd.l.qq.com
 #去苹果店现场预约时遇到的 503 问题，把这个域名加入规则访问正常。
-DOMAIN,reserve-prime.apple.com,Direct
+DOMAIN,reserve-prime.apple.com
 #Siri 响应问题的排查尝试
-DOMAIN,guzzoni.apple.com,Direct
+DOMAIN,guzzoni.apple.com
+# PN
+PROCESS-NAME,v2ray
+PROCESS-NAME,ss-local
+PROCESS-NAME,UUBooster
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
