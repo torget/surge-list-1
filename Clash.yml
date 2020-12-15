@@ -105,6 +105,12 @@ rule-providers:
     path: ./RuleSet/StreamingSE.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
     interval: 86400
+  Speedtest:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Speedtest.yaml
+    url: https://raw.githubusercontent.com/lhie1/Rules/master/Clash/Provider/Speedtest.yaml
+    interval: 86400
   Global:
     type: http
     behavior: classical
@@ -135,6 +141,7 @@ rules:
   - RULE-SET,StreamingCN,DIRECT
   - RULE-SET,Streaming,Proxy
   - RULE-SET,StreamingSE,Proxy
+  - RULE-SET,Speedtest,Proxy
   - RULE-SET,Global,Proxy
   - RULE-SET,Apple,Apple
   # 
