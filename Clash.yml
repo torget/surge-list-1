@@ -44,6 +44,15 @@ proxy-providers:
             enable: true
             url: http://cp.cloudflare.com
             interval: 300
+    GIA-Node:
+        type: http
+        path: ./DlerCloud/GIA-Node.yaml
+        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&match=GIA
+        interval: 3600
+        health-check:
+            enable: true
+            url: http://cp.cloudflare.com
+            interval: 300
 
 proxy-groups:
 - name: Proxy
@@ -53,6 +62,7 @@ proxy-groups:
       - AGA
       - IEPL
       - BGP
+      - GIA
 - name: CEN
   type: url-test
   use:
@@ -69,6 +79,10 @@ proxy-groups:
   type: select
   use:
     - BGP-Node
+- name: GIA
+  type: select
+  use:
+    - GIA-Node
 - name: Apple
   type: select
   proxies:
