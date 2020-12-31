@@ -9,6 +9,15 @@ experimental:
   ignore-resolve-fail: true
 
 proxy-providers:
+    CTM-Node:
+        type: http
+        path: ./DlerCloud/CTM-Node.yaml
+        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&match=CTM
+        interval: 3600
+        health-check:
+            enable: true
+            url: http://cp.cloudflare.com
+            interval: 300
     CEN-Node:
         type: http
         path: ./DlerCloud/CEN-Node.yaml
@@ -59,11 +68,16 @@ proxy-groups:
 - name: Proxy
   type: select
   proxies:
+      - CTM
       - CEN
       - AGA
       - IEPL
       - BGP
       - GIA
+- name: CTM
+  type: url-test
+  use:
+    - CTM-Node
 - name: CEN
   type: url-test
   use:
