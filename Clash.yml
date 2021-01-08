@@ -165,15 +165,15 @@ rule-providers:
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
 rules:
+  - DOMAIN-SUFFIX,evernote.com,Proxy
+  - DOMAIN-SUFFIX,dlercloud.com,Proxy
   - RULE-SET,Unbreak,DIRECT
-  # 
   - RULE-SET,StreamingCN,DIRECT
   - RULE-SET,Streaming,Proxy
   - RULE-SET,StreamingSE,Proxy
   - RULE-SET,Speedtest,Proxy
   - RULE-SET,Global,Proxy
   - RULE-SET,Apple,Apple
-  # 
   - RULE-SET,China,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
