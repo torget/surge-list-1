@@ -22,6 +22,7 @@ sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.github
   let body = `${used}/${total}${expire}  = ss, 1.2.3.4, 1234, encrypt-method=aes-128-gcm,password=1234`;
     $done({response: {body}});
 })();
+
 function getUrlParams(url) {
   return Object.fromEntries(url.slice(url.indexOf('?') + 1).split('&').map(item => item.split("=")).map(([k, v]) => [k, decodeURIComponent(v)]));   
 }
