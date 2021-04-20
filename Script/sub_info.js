@@ -17,7 +17,7 @@ const url = params.url;
 (async () => {
   let info = await getUserInfo();
   let usage = getDataUsage(info);
-  let used = bytesToSize(parseInt(usage.download) + parseInt(usage.upload));
+  let used = bytesToSize(usage.download + usage.upload);
   let total = bytesToSize(usage.total);
   let expire = usage.expire == undefined ? '' : '|' + formatTimestamp(usage.expire * 1000)
   let body = `${used}/${total}${expire}  = ss, 1.2.3.4, 1234, encrypt-method=aes-128-gcm,password=1234`;
@@ -40,7 +40,7 @@ function getUserInfo(url) {
 
 function getDataUsage(info) {
   return Object.fromEntries(
-    info.split("; ").map(item => item.split("="))
+    info.split("; ").map(item => item.split("=")).map(([k, v]) => [k,parseInt(v)])
   );
 }
 
