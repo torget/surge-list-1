@@ -35,13 +35,15 @@ function getUrlParams(search) {
     return params
 }
 
-function getUserInfo() {
-  return new Promise(resolve => $httpClient.head(url, (err, resp) => resolve(resp.headers["subscription-userinfo"] || resp.headers["Subscription-userinfo"])));
+function getUserInfo(url) {
+  let headers = {"User-Agent" :"Quantumult X"}
+  let request = {headers, url}
+  return new Promise(resolve => $httpClient.head(request, (err, resp) => resolve(resp.headers["subscription-userinfo"] || resp.headers["Subscription-userinfo"])));
 }
 
 function getDataUsage(info) {
   return Object.fromEntries(
-    info.split("; ").map(item => item.split("=")).map(([k, v]) => [k,parseInt(v)])
+    info.match(/\w+=\d+/g).map(item => item.split("=")).map(([k, v]) => [k,parseInt(v)])
   );
 }
 
