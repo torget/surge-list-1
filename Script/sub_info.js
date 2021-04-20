@@ -3,7 +3,7 @@ Surge按照注释配置，建议将Name改成机场名字方便区分，作者@m
 url请求头中必须带有流量信息, 并且需要urlencode
 
 [Proxy Group]
-Name = select, policy-path=http://t.tt?url=https%3A%2F%2Fxxx.com%2FSubscription%2FSurgeNodeList%3Fsid%3D12683%26token%3Dkc8gOa, update-interval=3600
+DlerCloud = select, policy-path=http://t.tt?url=, update-interval=3600
 
 [Script]
 sub_info = type=http-request,pattern=http://t\.tt,script-path=Script/sub_info.js
