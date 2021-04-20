@@ -11,11 +11,9 @@ DlerCloud = select, policy-path=http://t.tt?url=, update-interval=3600
 sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/sub_info.js
 */
 
-let params = getUrlParams($request.url);
-const url = params.url;
-
 (async () => {
-  let info = await getUserInfo();
+  let params = getUrlParams($request.url);
+  let info = await getUserInfo(params.url);
   console.log('info:' + info)
   let usage = getDataUsage(info);
   let used = bytesToSize(usage.download + usage.upload);
@@ -24,15 +22,8 @@ const url = params.url;
   let body = `${used}/${total}${expire}  = ss, 1.2.3.4, 1234, encrypt-method=aes-128-gcm,password=1234`;
     $done({response: {body}});
 })();
-
-function getUrlParams(search) {
-    const hashes = search.slice(search.indexOf('?') + 1).split('&')
-    const params = {}
-    hashes.map(hash => {
-        const [key, val] = hash.split('=')
-        params[key] = decodeURIComponent(val)
-    })
-    return params
+function getUrlParams(url) {
+  return Object.fromEntries(url.slice(url.indexOf('?') + 1).split('&').map(item => item.split("=")).map(([k, v]) => [k, decodeURIComponent(v)]));   
 }
 
 function getUserInfo(url) {
