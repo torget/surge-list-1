@@ -16,6 +16,7 @@ const url = params.url;
 
 (async () => {
   let info = await getUserInfo();
+  console.log('info:' + info)
   let usage = getDataUsage(info);
   let used = bytesToSize(usage.download + usage.upload);
   let total = bytesToSize(usage.total);
