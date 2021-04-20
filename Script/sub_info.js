@@ -36,7 +36,7 @@ function getUrlParams(search) {
 }
 
 function getUserInfo() {
-  return new Promise(resolve => $httpClient.head(url, (err, resp) => resolve(resp.headers["subscription-userinfo"])));
+  return new Promise(resolve => $httpClient.head(url, (err, resp) => resolve(resp.headers["subscription-userinfo"] || resp.headers["Subscription-userinfo"])));
 }
 
 function getDataUsage(info) {
