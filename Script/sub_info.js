@@ -30,7 +30,8 @@ function getUrlParams(url) {
 function getUserInfo(url) {
   let headers = {"User-Agent" :"Quantumult X"}
   let request = {headers, url}
-  return new Promise(resolve => $httpClient.head(request, (err, resp) => resolve(resp.headers["subscription-userinfo"] || resp.headers["Subscription-userinfo"])));
+  return new Promise(resolve => $httpClient.head(request, (err, resp) => 
+    resolve(resp.headers["subscription-userinfo"] || resp.headers["Subscription-userinfo"] || resp.headers["Subscription-Userinfo"])));
 }
 
 function getDataUsage(info) {
