@@ -1,5 +1,7 @@
 /*
-Surge按照注释配置，建议将Name改成机场名字方便区分，作者@mieqq.
+Surge 中显示机场的流量信息
+作者 @mieqq
+
 url请求头中必须带有流量信息, 并且需要urlencode
 
 [Proxy Group]
