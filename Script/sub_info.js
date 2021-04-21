@@ -5,7 +5,7 @@ Surge 中显示机场的流量信息
 url请求头中必须带有流量信息, 并且需要urlencode
 
 [Proxy Group]
-DlerCloud = select, policy-path=http://t.tt?url=, update-interval=3600
+DlerCloud = select, policy-path=http://t.tt?url=urlencode(订阅地址), update-interval=3600
 
 [Script]
 sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/sub_info.js
