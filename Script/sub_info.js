@@ -20,7 +20,7 @@ sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.github
   let total = bytesToSize(usage.total);
   let expire = usage.expire == undefined ? '' : '|' + formatTimestamp(usage.expire * 1000)
   let http = "http, localhost, 6152";
-  let body = `${used}/${total}${expire}  = ${http}`;
+  let body = `${used}/${total}${expire} = ${http}`;
     $done({response: {body}});
 })();
 
