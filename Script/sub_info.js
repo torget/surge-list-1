@@ -15,6 +15,10 @@ sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.github
   let params = getUrlParams($request.url);
   let info = await getUserInfo(params.url);
   console.log('info:' + info)
+  if (!info) {
+    $notification.post("sub_info","","链接响应头不带有流量信息")
+    $done();
+  }
   let usage = getDataUsage(info);
   let used = bytesToSize(usage.download + usage.upload);
   let total = bytesToSize(usage.total);
