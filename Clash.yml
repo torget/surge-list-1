@@ -17,7 +17,7 @@ proxy-providers:
         health-check:
             enable: true
             url: http://cp.cloudflare.com
-            interval: 300
+            interval: 3600
     IEPL-Node:
         type: http
         path: ./DlerCloud/IEPL-Node.yaml
@@ -26,7 +26,7 @@ proxy-providers:
         health-check:
             enable: true
             url: http://cp.cloudflare.com
-            interval: 300
+            interval: 3600
     AGA-Node:
         type: http
         path: ./DlerCloud/AGA-Node.yaml
@@ -35,7 +35,7 @@ proxy-providers:
         health-check:
             enable: true
             url: http://cp.cloudflare.com
-            interval: 300
+            interval: 3600
     BGP-Node:
         type: http
         path: ./DlerCloud/BGP-Node.yaml
@@ -44,7 +44,7 @@ proxy-providers:
         health-check:
             enable: true
             url: http://cp.cloudflare.com
-            interval: 300
+            interval: 3600
     GIA-Node:
         type: http
         path: ./DlerCloud/GIA-Node.yaml
@@ -53,7 +53,7 @@ proxy-providers:
         health-check:
             enable: true
             url: http://cp.cloudflare.com
-            interval: 300
+            interval: 3600
 
 proxy-groups:
 - name: Proxy
