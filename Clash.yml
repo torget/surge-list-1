@@ -18,6 +18,15 @@ proxy-providers:
             enable: true
             url: http://cp.cloudflare.com
             interval: 3600
+    AIA-Node:
+        type: http
+        path: ./DlerCloud/AIA-Node.yaml
+        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&nolv=1&match=AIA
+        interval: 3600
+        health-check:
+            enable: true
+            url: http://cp.cloudflare.com
+            interval: 3600
     IEPL-Node:
         type: http
         path: ./DlerCloud/IEPL-Node.yaml
@@ -60,6 +69,7 @@ proxy-groups:
   type: select
   proxies:
       - CC
+      - AIA
       - IEPL
       - AGA
       - BGP
@@ -68,6 +78,10 @@ proxy-groups:
   type: url-test
   use:
     - CC-Node
+- name: AIA
+  type: url-test
+  use:
+    - AIA-Node
 - name: IEPL
   type: url-test
   use:
