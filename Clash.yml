@@ -65,6 +65,11 @@ proxy-providers:
             interval: 3600
 
 proxy-groups:
+- name: Apple
+  type: select
+  proxies:
+    - DIRECT
+    - Proxy
 - name: Proxy
   type: select
   proxies:
@@ -98,16 +103,6 @@ proxy-groups:
   type: select
   use:
     - GIA-Node
-- name: Apple
-  type: select
-  proxies:
-    - DIRECT
-    - Proxy
-- name: Final
-  type: select
-  proxies:
-    - Proxy
-    - DIRECT
 
 rule-providers:
   Unbreak:
@@ -185,4 +180,4 @@ rules:
   - IP-CIDR,182.254.116.0/24,DIRECT
   - RULE-SET,ChinaIP,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,Final
+  - MATCH,Proxy
