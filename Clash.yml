@@ -12,7 +12,7 @@ proxy-providers:
     CC-Node:
         type: http
         path: ./DlerCloud/CC-Node.yaml
-        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&nolv=1&match=CC
+        url: https://dler.cloud/subscribe/$managed_token?protocols=smart&list=clash&nolv=1&match=CC
         interval: 3600
         health-check:
             enable: true
@@ -21,7 +21,7 @@ proxy-providers:
     AIA-Node:
         type: http
         path: ./DlerCloud/AIA-Node.yaml
-        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&nolv=1&match=AIA
+        url: https://dler.cloud/subscribe/$managed_token?protocols=smart&list=clash&nolv=1&match=AIA
         interval: 3600
         health-check:
             enable: true
@@ -30,7 +30,7 @@ proxy-providers:
     IEPL-Node:
         type: http
         path: ./DlerCloud/IEPL-Node.yaml
-        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&nolv=1&match=IEPL
+        url: https://dler.cloud/subscribe/$managed_token?protocols=smart&list=clash&nolv=1&match=IEPL
         interval: 3600
         health-check:
             enable: true
@@ -39,7 +39,7 @@ proxy-providers:
     AGA-Node:
         type: http
         path: ./DlerCloud/AGA-Node.yaml
-        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&nolv=1&match=AGA
+        url: https://dler.cloud/subscribe/$managed_token?protocols=smart&list=clash&nolv=1&match=AGA
         interval: 3600
         health-check:
             enable: true
@@ -48,7 +48,7 @@ proxy-providers:
     BGP-Node:
         type: http
         path: ./DlerCloud/BGP-Node.yaml
-        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&nolv=1&match=BGP
+        url: https://dler.cloud/subscribe/$managed_token?protocols=smart&list=clash&nolv=1&match=BGP
         interval: 3600
         health-check:
             enable: true
@@ -57,7 +57,7 @@ proxy-providers:
     GIA-Node:
         type: http
         path: ./DlerCloud/GIA-Node.yaml
-        url: https://dler.cloud/subscribe/$managed_token?protocols=ss&list=clash&nolv=1&match=GIA
+        url: https://dler.cloud/subscribe/$managed_token?protocols=smart&list=clash&nolv=1&match=GIA
         interval: 3600
         health-check:
             enable: true
