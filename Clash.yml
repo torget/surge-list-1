@@ -30,7 +30,7 @@ proxy-providers:
     AIA-Node:
         type: http
         path: ./DlerCloud/AIA-Node.yaml
-        url: https://dler.cloud/subscribe/$subscribe_token?protocols=smart&list=clash&nolv=1&match=AIA&nomatch=AIA%5C%2B
+        url: https://dler.cloud/subscribe/$subscribe_token?protocols=smart&list=clash&nolv=1&match=AIA
         interval: 3600
         health-check:
             enable: true
