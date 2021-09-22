@@ -25,7 +25,7 @@ sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.github
   let expire = usage.expire == undefined ? '' : '|' + formatTimestamp(usage.expire * 1000)
   $done({
     title: 'Info',
-    content: used + '/' + total + '\n' + expire,
+    content: used + '/' + total + '|' + expire,
     style: 'info'
   });
 })();
