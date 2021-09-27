@@ -1,5 +1,5 @@
 #!name=信息面板
-#!desc=
+#!desc=https://github.com/congcong0806/surge-list/raw/master/Panel.sgmodule
 
 [Script]
 net-info-panel = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Panels/NetInfo/net-info-panel.js
