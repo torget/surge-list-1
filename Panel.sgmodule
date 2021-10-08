@@ -1,5 +1,5 @@
 #!name=信息面板
-#!desc=https://github.com/congcong0806/surge-list/raw/master/Panel.sgmodule
+#!desc=https://github.com/torget/surge-list-1/blob/master/Panel.sgmodule
 
 [Script]
 #附带重载配置,Surge Pro标题,可显示启动时间,点击刷新为重载配置
@@ -19,9 +19,5 @@ ytb_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.co
 SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
 #流量统计
 TrafficStatistics = script-name=TrafficStatistics,update-interval=1
-#网络详情
-NET_info = script-name=NET_info,update-interval=1
-# net-info-panel = script-name=net-info-panel, title="网络状态", content="请刷新", style=info
-flushDNS = script-name=flushDNS, icon=arrow.clockwise, update-interval=600
 nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=10
 ytb_check = script-name=ytb_check, title="YouTube Premium 解锁检测", update-interval=10
